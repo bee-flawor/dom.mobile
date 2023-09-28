@@ -1,0 +1,27 @@
+.conteudo {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    align-items: top;
+}
+
+.formulario,
+.informativo {
+    flex: 1;
+    height: 250px;
+    overflow: hidden;
+    padding: 10px;
+    border: 2px;
+    border-radius: 20px;
+}
+
+.formulario input {
+    height: 2em;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(247, 242, 242);
+    text-align: center;
+}
